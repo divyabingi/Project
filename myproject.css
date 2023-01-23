@@ -1,0 +1,25 @@
+.container{
+    background-color:white;
+    padding: 10px 10px 10px 10px;
+    margin:10px 10px 10px 10px;
+}
+a{
+    background-color: transparent;
+    text-align:left;
+}
+.container1{
+    background-color:white;
+    padding: 10px 10px 10px 10px;
+    margin:10px 10px 10px 10px;
+}
+.container2{
+    background-color:white;
+    padding: 10px 10px 10px 10px;
+    margin:10px 10px 10px 10px;
+}
+h6{
+    color:skyblue;
+}
+body{
+    background-image:linear-gradient(orange, white);
+}
