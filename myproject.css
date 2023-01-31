@@ -5,7 +5,6 @@
 }
 a{
     background-color: transparent;
-    text-align:left;
 }
 .container1{
     background-color:white;
@@ -21,5 +20,8 @@ h6{
     color:skyblue;
 }
 body{
-    background-image:linear-gradient(orange, white);
+    background-image:linear-gradient(orange, pink)
+}
+.carousel-inner{
+    width: 100vw;
 }
