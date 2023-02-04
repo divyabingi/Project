@@ -1,0 +1,13 @@
+.bg-container{
+    background-color: aqua;
+    height: 100vh;
+    padding: 20px;
+}
+h1{
+    border:solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    border-color: blue;
+    padding: 20px;
+    text-align: center;
+}

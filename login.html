@@ -13,16 +13,16 @@
         }
         form{
             padding: 10px 10px 10px 10px;
-            margin: 20px 20px 20px 20px;
-
+            margin: 10px 10px 10px 10px;
         }
         .form-floating{
             margin:10px 10px 10px 10px;
+
         }
         .modal-content{
-            background-color:rgb(179, 184, 192);
+            background-image:url(https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301__480.jpg);
+            background-size:cover;
         }
-        
     </style>
 </head>
 <body>
@@ -46,6 +46,18 @@
             <div class="form-floating">
                 <label for="">Gender</label>
                 <input type="radio" name="m2" id="">
+            </div>
+            <div class="form-floating">
+                <label for="">Qualification</label>
+                <input list="Qualification" name="Qualification" placeholder="Select">
+                    <datalist id="Qualification">
+                        <option value="B.Sc">
+                        <option value="B.Com">
+                        <option value="B.Tech">
+                        <option value="M.Sc">
+                        <option value="M.Tech">
+                        <option value="MBA">
+                    </datalist>
             </div>
             <div>
                 <label for="">Male</label>
